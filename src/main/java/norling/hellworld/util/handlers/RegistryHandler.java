@@ -13,7 +13,10 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import norling.hellworld.Main;
+import norling.hellworld.commands.CommandTeleportDimension;
+import norling.hellworld.init.BiomeInit;
 import norling.hellworld.init.BlockInit;
+import norling.hellworld.init.DimensionInit;
 import norling.hellworld.init.ItemInit;
 import norling.hellworld.util.IHasModel;
 
@@ -51,6 +54,7 @@ public class RegistryHandler {
 		{
 			if(block instanceof IHasModel)
 			{
+				Main.logger.warn(block);
 				((IHasModel)block).registerModels();
 			}
 		}
@@ -64,8 +68,8 @@ public class RegistryHandler {
 		//GameRegistry.registerWorldGenerator(new WorldGenCustomStructures(), 0);
 		//GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
 		
-		//BiomeInit.registerBiomes();
-		//DimensionInit.registerDimensions();
+		BiomeInit.registerBiomes();
+		DimensionInit.registerDimensions();
 		//EntityInit.registerEntities();
 		//RenderHandler.registerEntityRenders();
 		//RenderHandler.registerCustomMeshesAndStates();
@@ -85,6 +89,6 @@ public class RegistryHandler {
 	
 	public static void serverRegistries(FMLServerStartingEvent event)
 	{
-		// event.registerServerCommand(new CommandTeleportDimension());
+		event.registerServerCommand(new CommandTeleportDimension());
 	}
 }
