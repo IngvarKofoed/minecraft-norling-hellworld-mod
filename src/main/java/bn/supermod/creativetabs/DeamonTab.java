@@ -5,16 +5,16 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class HellworldTab extends CreativeTabs {
-	public HellworldTab() 
+public class DeamonTab extends CreativeTabs {
+	public DeamonTab() 
 	{
-		super("hellworld");
+		super("deamon");
 	}
 
 	@Override
 	public ItemStack getTabIconItem() 
 	{
-		return new ItemStack(ItemInit.HELLWORLD_HELMET);
+		return new ItemStack(ItemInit.DEAMON_HELMET);
 		//return new ItemStack(Items.APPLE);//ItemInit.COPPER_INGOT);
 	}
 }

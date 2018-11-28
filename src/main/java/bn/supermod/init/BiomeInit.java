@@ -1,7 +1,7 @@
 package bn.supermod.init;
 
 import bn.supermod.Main;
-import bn.supermod.world.biomes.HellworldBiome;
+import bn.supermod.world.biomes.DeamonBiome;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.common.BiomeManager.BiomeEntry;
 import net.minecraftforge.common.BiomeManager.BiomeType;
@@ -12,11 +12,11 @@ import net.minecraftforge.common.BiomeManager;
 
 public class BiomeInit {
 
-	public static final Biome HELLWORLD = new HellworldBiome();
+	public static final Biome DEAMON = new DeamonBiome();
 	
 	public static void registerBiomes()
 	{		
-		initBiome(HELLWORLD, "Hellworld", BiomeType.WARM, Type.HILLS, Type.MOUNTAIN, Type.DRY);
+		initBiome(DEAMON, "Deamon", BiomeType.WARM, Type.HILLS, Type.MOUNTAIN, Type.DRY);
 	}
 	
 	private static Biome initBiome(Biome biome, String name, BiomeType biomeType, Type... types)

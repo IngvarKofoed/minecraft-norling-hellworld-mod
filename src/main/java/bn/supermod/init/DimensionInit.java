@@ -8,11 +8,11 @@ import net.minecraftforge.common.DimensionManager;
 
 public class DimensionInit {
 
-	public static final DimensionType HELLWORLD = DimensionType.register("Hellworld", "_hellworld", ModConfiguration.DIMENSION_HELLWORLD_ID, DimensionLibrary.class, false);
+	public static final DimensionType DEAMON = DimensionType.register("Deamon", "_deamon", ModConfiguration.DIMENSION_DEAMON_ID, DimensionLibrary.class, false);
 	
 	public static void registerDimensions()
 	{
-		Main.logger.warn(HELLWORLD);
-		DimensionManager.registerDimension(ModConfiguration.DIMENSION_HELLWORLD_ID, HELLWORLD);
+		Main.logger.warn(DEAMON);
+		DimensionManager.registerDimension(ModConfiguration.DIMENSION_DEAMON_ID, DEAMON);
 	}
 }

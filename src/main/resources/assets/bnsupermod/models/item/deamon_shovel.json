@@ -2,6 +2,6 @@
     "parent": "item/handheld",
     "textures":
     {
-        "layer0": "bnsupermod:items/hellworld_hoe"
+        "layer0": "bnsupermod:items/deamon_shovel"
     }
 }

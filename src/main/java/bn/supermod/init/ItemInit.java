@@ -23,24 +23,24 @@ public class ItemInit {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	// Armour Materials
-	public static final ArmorMaterial HELLWORLD_MODEL_MATERIAL = EnumHelper.addArmorMaterial("hellworld_model", Reference.MODID + ":hellworld_model", 20, new int[] {7, 8, 8, 9}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
+	public static final ArmorMaterial DEAMON_MODEL_MATERIAL = EnumHelper.addArmorMaterial("deamon_model", Reference.MODID + ":deamon_model", 20, new int[] {7, 8, 8, 9}, 0, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 2.0f);
 	
 	// Tool Materials
-	public static final ToolMaterial HELLWORLD_TOOL = EnumHelper.addToolMaterial("hellworld_tool", 2, 400, 3.0f, 5.0f, 20);
+	public static final ToolMaterial DEAMON_TOOL_MATERIAL = EnumHelper.addToolMaterial("deamon_tool", 2, 400, 3.0f, 5.0f, 20);
 	
 	// Items
-	public static final Item HELLWORLD_INGOT = new ItemBase("hellworld_ingot", Main.CREATIVE_TAB);
+	public static final Item DEAMON_INGOT = new ItemBase("deamon_ingot", Main.CREATIVE_TAB);
 	
 	// Armour
-	public static final Item HELLWORLD_HELMET = new ArmourModel("hellworld_helmet", Main.CREATIVE_TAB, HELLWORLD_MODEL_MATERIAL, EntityEquipmentSlot.HEAD);
-	public static final Item HELLWORLD_CHESTPLATE = new ArmourModel("hellworld_chestplate", Main.CREATIVE_TAB, HELLWORLD_MODEL_MATERIAL, EntityEquipmentSlot.CHEST);
-	public static final Item HELLWORLD_LEGGINGS = new ArmourModel("hellworld_leggings", Main.CREATIVE_TAB, HELLWORLD_MODEL_MATERIAL, EntityEquipmentSlot.LEGS);
-	public static final Item HELLWORLD_BOOTS = new ArmourModel("hellworld_boots", Main.CREATIVE_TAB, HELLWORLD_MODEL_MATERIAL, EntityEquipmentSlot.FEET);
+	public static final Item DEAMON_HELMET = new ArmourModel("deamon_helmet", Main.CREATIVE_TAB, DEAMON_MODEL_MATERIAL, EntityEquipmentSlot.HEAD);
+	public static final Item DEAMON_CHESTPLATE = new ArmourModel("deamon_chestplate", Main.CREATIVE_TAB, DEAMON_MODEL_MATERIAL, EntityEquipmentSlot.CHEST);
+	public static final Item DEAMON_LEGGINGS = new ArmourModel("deamon_leggings", Main.CREATIVE_TAB, DEAMON_MODEL_MATERIAL, EntityEquipmentSlot.LEGS);
+	public static final Item DEAMON_BOOTS = new ArmourModel("deamon_boots", Main.CREATIVE_TAB, DEAMON_MODEL_MATERIAL, EntityEquipmentSlot.FEET);
 	
 	// Tools
-	public static final Item HELLWORLD_AXE = new ToolAxeBase("hellworld_axe", HELLWORLD_TOOL, Main.CREATIVE_TAB);
-	public static final Item HELLWORLD_HOE = new ToolHoeBase("hellworld_hoe", HELLWORLD_TOOL, Main.CREATIVE_TAB);
-	public static final Item HELLWORLD_PICKAXE = new ToolPickaxeBase("hellworld_pickaxe", HELLWORLD_TOOL, Main.CREATIVE_TAB);
-	public static final Item HELLWORLD_SHOVEL = new ToolShovelBase("hellworld_shovel", HELLWORLD_TOOL, Main.CREATIVE_TAB);
-	public static final Item HELLWORLD_SWORD = new ToolSwordBase("hellworld_sword", HELLWORLD_TOOL, Main.CREATIVE_TAB);
+	public static final Item DEAMON_AXE = new ToolAxeBase("deamon_axe", DEAMON_TOOL_MATERIAL, Main.CREATIVE_TAB);
+	public static final Item DEAMON_HOE = new ToolHoeBase("deamon_hoe", DEAMON_TOOL_MATERIAL, Main.CREATIVE_TAB);
+	public static final Item DEAMON_PICKAXE = new ToolPickaxeBase("deamon_pickaxe", DEAMON_TOOL_MATERIAL, Main.CREATIVE_TAB);
+	public static final Item DEAMON_SHOVEL = new ToolShovelBase("deamon_shovel", DEAMON_TOOL_MATERIAL, Main.CREATIVE_TAB);
+	public static final Item DEAMON_SWORD = new ToolSwordBase("deamon_sword", DEAMON_TOOL_MATERIAL, Main.CREATIVE_TAB);
 }

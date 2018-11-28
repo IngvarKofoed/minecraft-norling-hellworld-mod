@@ -39,14 +39,14 @@ public class ChunkGeneratorNetherTemplate implements IChunkGenerator {
 	    protected static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
 	    
 	    //Block that is usually Netherrack
-	    protected static final IBlockState MAIN_BLOCK1 = BlockInit.HELLWORLD_DIRT.getDefaultState();
-	    protected static final IBlockState MAIN_BLOCK2 = BlockInit.HELLWORLD_STONE.getDefaultState();
-	    protected static final IBlockState MAIN_BLOCK3 = BlockInit.HELLWORLD_ORE.getDefaultState();
+	    protected static final IBlockState MAIN_BLOCK1 = BlockInit.DEAMON_DIRT.getDefaultState();
+	    protected static final IBlockState MAIN_BLOCK2 = BlockInit.DEAMON_STONE.getDefaultState();
+	    protected static final IBlockState MAIN_BLOCK3 = BlockInit.DEAMON_ORE.getDefaultState();
 	    //Block that is usally Lava
 	    protected static final IBlockState YOUR_LIQUID = Blocks.WATER.getDefaultState();
 	    //Blocks that are usally gravel and soul sand
-	    protected static final IBlockState OTHER_BLOCK1 = BlockInit.HELLWORLD_DIRT.getDefaultState();
-	    protected static final IBlockState OTHER_BLOCK2 = BlockInit.HELLWORLD_DIRT.getDefaultState();
+	    protected static final IBlockState OTHER_BLOCK1 = BlockInit.DEAMON_DIRT.getDefaultState();
+	    protected static final IBlockState OTHER_BLOCK2 = BlockInit.DEAMON_DIRT.getDefaultState();
 	    
 	    private final World world;
 	    private final boolean generateStructures;
@@ -294,7 +294,7 @@ public class ChunkGeneratorNetherTemplate implements IChunkGenerator {
 
 	        for (int i = 0; i < abyte.length; ++i)
 	        {
-	            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.HELLWORLD);
+	            abyte[i] = (byte)Biome.getIdForBiome(BiomeInit.DEAMON);
 	        }
 
 	        chunk.resetRelightChecks();

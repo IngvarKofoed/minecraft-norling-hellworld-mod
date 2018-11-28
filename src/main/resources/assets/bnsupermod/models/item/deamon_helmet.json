@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures":
     {
-        "layer0": "bnsupermod:items/hellworld_boots"
+        "layer0": "bnsupermod:items/deamon_helmet"
     }
 }

@@ -2,6 +2,6 @@
     "parent": "block/cube_all",
     "textures":
     {
-        "all": "bnsupermod:blocks/hellworld_ore"
+        "all": "bnsupermod:blocks/deamon_dirt"
     }
 }

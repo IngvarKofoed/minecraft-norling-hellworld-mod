@@ -12,14 +12,14 @@ public class DimensionLibrary extends WorldProvider {
 
 	public DimensionLibrary() 
 	{
-		this.biomeProvider = new BiomeProviderSingle(BiomeInit.HELLWORLD);
+		this.biomeProvider = new BiomeProviderSingle(BiomeInit.DEAMON);
 		this.hasSkyLight = false;
 	}
 	
 	@Override
 	public DimensionType getDimensionType() 
 	{
-		return DimensionInit.HELLWORLD;
+		return DimensionInit.DEAMON;
 	}
 	
 	@Override
