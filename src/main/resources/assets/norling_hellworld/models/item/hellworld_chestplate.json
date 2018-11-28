@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures":
-    {
-        "layer0": "norling_hellworld:items/hellworld_chestplate"
-    }
-}

@@ -1,7 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures":
-    {
-        "all": "norling_hellworld:blocks/hellworld_stone"
-    }
-}
