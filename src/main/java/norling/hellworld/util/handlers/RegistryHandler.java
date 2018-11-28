@@ -42,6 +42,7 @@ public class RegistryHandler {
 		{
 			if(item instanceof IHasModel)
 			{
+				Main.logger.warn(item);
 				((IHasModel)item).registerModels();
 			}
 		}

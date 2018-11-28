@@ -14,9 +14,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import norling.hellworld.creativetabs.HellworldTab;
 import norling.hellworld.proxy.CommonProxy;
 
-@Mod(modid = Resources.MODID, name = Resources.NAME, version = Resources.VERSION) 
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION) 
 public class Main {
-	private static Logger logger;
+	public static Logger logger;
 	
 	@Instance
 	public static Main instance;

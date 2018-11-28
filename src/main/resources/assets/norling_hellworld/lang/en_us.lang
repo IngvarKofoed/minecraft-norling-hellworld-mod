@@ -1,6 +1,24 @@
 // Items
-item.copper_ingot.name=Copper Ingot
+item.hellworld_ingot.name=Deamon Ingot
+
+//Armour
+item.hellworld_helmet.name=Deamon World Helmet
+item.hellworld_chestplate.name=Deamon World Chestplate
+item.hellworld_leggings.name=Deamon World Leggings
+item.hellworld_boots.name=Deamon World Boots
+
+// Tools
+item.hellworld_axe.name=Deamon Axe
+item.hellworld_hoe.name=Deamon Hoe
+item.hellworld_pickaxe.name=Deamon Pickaxe
+item.hellworld_shovel.name=Deamon Shovel
+item.hellworld_sword.name=Deamon Sword
 
 // Blocks
-tile.copper_block.name=Copper Block
-tile.copper_ore.name=Copper Ore
+tile.hellworld_block.name=Deamon Block
+tile.hellworld_dirt.name=Deamon Dirt
+tile.hellworld_stone.name=Deamon Stone
+tile.hellworld_ore.name=Deamon Ore
+
+//Creative Tabs
+itemGroup.tutorial=Deamon World Tab
