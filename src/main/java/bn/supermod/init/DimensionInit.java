@@ -8,7 +8,7 @@ import net.minecraftforge.common.DimensionManager;
 
 public class DimensionInit {
 
-	public static final DimensionType DEAMON = DimensionType.register("Deamon", "_deamon", ModConfiguration.DIMENSION_DEAMON_ID, DimensionLibrary.class, false);
+	public static final DimensionType DEAMON = DimensionType.register("Deamon World", "_deamon", ModConfiguration.DIMENSION_DEAMON_ID, DimensionLibrary.class, false);
 	
 	public static void registerDimensions()
 	{

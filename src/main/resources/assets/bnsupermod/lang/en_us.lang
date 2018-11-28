@@ -21,4 +21,4 @@ tile.deamon_stone.name=Deamon Stone
 tile.deamon_ore.name=Deamon Ore
 
 //Creative Tabs
-itemGroup.tutorial=Deamon World Tab
+itemGroup.deamon=Deamon World Tab
